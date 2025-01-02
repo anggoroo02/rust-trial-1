@@ -3,5 +3,6 @@ fn main() {
 }
 #[test]
 fn test_word(){
-    println!("hello, this is test");
+    let nama="anggoro jati";
+    println!("hello, {}",nama);
 }

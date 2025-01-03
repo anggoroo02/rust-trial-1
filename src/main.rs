@@ -2,7 +2,9 @@ fn main() {
     println!("Hello, world!");
 }
 #[test]
-fn test_word(){
-    let nama="anggoro jati";
-    println!("hello, {}",nama);
+fn main_bo() {
+    let mut word: &str="anggoro jati";
+    println!("{}",word);
+    word ="word has changed";
+    println!("{}",word);
 }

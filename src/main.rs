@@ -1,10 +1,9 @@
 fn main() {
     println!("Hello, world!");
 }
+// test untuk tipe data
 #[test]
-fn main_bo() {
-    let mut word: &str="anggoro jati";
-    println!("{}",word);
-    word ="word has changed";
-    println!("{}",word);
+fn data_type() {
+    let angka:u32=32;
+    println!("isi dari variable angka adalah: {}", angka)
 }

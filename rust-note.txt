@@ -1,0 +1,8 @@
+tipe data di rust ada 2: Scalar and Compund.
+Scalar
+  integer: merupakan bilangan bulat tanpa koma, terdiri dari 8, 16,32, 64, arch. untuk arch mengikuti sistem operasi, bisa 32bit atau 64bit; tapi kebanyakan komputer modern sudah menggunakan sistem operasi 64bit.
+    ada 2 tipe: signed(contoh i32) dan unsigned(contoh u32); signed dapat menampung minus/negatif (-). biasanya jika memasukan nilai integer ke variable tanpa memberitahu tipe data secara implisit maka akan otomatis menggunakan i32.
+    Floating point: adalah bilangan dengan koma/desimal, terdiri dari f32 dan f64.
+    Boolean: tipe data yang hanya terdiri dari true dan false.
+  Character type: merupakan tipe data alfabet; chat terbagi atas 2 yaitu char dan string. Char menggunakan kutip tunggal ('') sedangkan string menggunakan kutip ganda ("").
+  

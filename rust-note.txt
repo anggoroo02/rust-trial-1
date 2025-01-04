@@ -5,4 +5,6 @@ Scalar
     Floating point: adalah bilangan dengan koma/desimal, terdiri dari f32 dan f64.
     Boolean: tipe data yang hanya terdiri dari true dan false.
   Character type: merupakan tipe data alfabet; chat terbagi atas 2 yaitu char dan string. Char menggunakan kutip tunggal ('') sedangkan string menggunakan kutip ganda ("").
-  
+Compund: Tipe gabungan dapat mengelompokkan beberapa nilai dari tipe lain menjadi satu tipe. Rust memiliki dua tipe gabungan primitif: tuple dan array.
+  Tupples: Tuple adalah cara umum untuk mengelompokkan sejumlah nilai lain dengan berbagai tipe menjadi satu tipe gabungan. intinya kayak array.
+

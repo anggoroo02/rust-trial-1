@@ -8,6 +8,7 @@ fn data_type() {
     angka +=300;
     println!("isi dari variable angka adalah: {}", angka)
 }
+//test untuk boolean
 #[test]
 fn boolean_prove() {
     let mut t: bool = true;
@@ -15,6 +16,7 @@ fn boolean_prove() {
     t = false;
     println!("nilai boolean dari t: {}", t);
 }
+//test untuk tupple
 #[test]
 fn tupples() {
     let tup = (500, 6.4, 1);
@@ -22,6 +24,7 @@ fn tupples() {
     //note: compiler akan memberitahu jika ada variable yang tidak digunakan, untuk mengatasi ini menggunakan underscore(_) di depan variable untuk memberitahu compiler untuk mengabaikan variable tersebut
     println!("The value of y is: {}", y);
 }
+//test untuk tupple dengan index array
 #[test]
 fn tupple_array() {
     let x: (i32, f64, u8) = (500, 6.4, 1);

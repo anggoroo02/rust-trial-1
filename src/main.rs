@@ -33,3 +33,16 @@ fn tupple_array() {
     let _one = x.2; //caranya buat variable baru dan diisi dari x menggunakan titik untuk index
     println!("isi dari six_point_four: {}", six_point_four)
 }
+//test untuk array
+#[test]
+fn array(){
+    let a: [i32; 5] = [1, 2, 3, 4, 5];//a adalah sebuah array yang memiliki 5 elemen dan tipe data i32 (integer 32-bit).
+    let b = [1; 5];//Sintaks [1; 5] adalah cara singkat untuk membuat array dengan 5 elemen, di mana setiap elemen diinisialisasi dengan nilai 1.
+    let c = [0; 5];
+    let d = [2; 10];
+    println!("Array a: {:?}", a);
+    println!("Array b: {:?}", b);
+    println!("Array c: {:?}", c);
+    println!("Array d: {:?}", d);
+    //jadi dari var b, c, d, berisi array dengan nilai yang sama, tapi dengan ukuran yang berbeda masing-masing variable.
+}

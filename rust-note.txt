@@ -7,4 +7,4 @@ Scalar
   Character type: merupakan tipe data alfabet; chat terbagi atas 2 yaitu char dan string. Char menggunakan kutip tunggal ('') sedangkan string menggunakan kutip ganda ("").
 Compund: Tipe gabungan dapat mengelompokkan beberapa nilai dari tipe lain menjadi satu tipe. Rust memiliki dua tipe gabungan primitif: tuple dan array.
   Tupples: Tuple adalah cara umum untuk mengelompokkan sejumlah nilai lain dengan berbagai tipe menjadi satu tipe gabungan. intinya kayak array.
-
+  Array: kumpulan nilai yang memiliki panjang yang sama, tipe data yang sama, dan diawali dengan indeks yang dimulai dari 0.

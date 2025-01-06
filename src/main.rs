@@ -46,3 +46,11 @@ fn array(){
     println!("Array d: {:?}", d);
     //jadi dari var b, c, d, berisi array dengan nilai yang sama, tapi dengan ukuran yang berbeda masing-masing variable.
 }
+#[test]
+fn array_2(){
+    let a = [1, 2, 3, 4, 5];
+    let index = 0;
+    let element = a[index];
+    println!("The value of element is: {}", element);
+    //mendeklarasikan array a dengan nilai [1, 2, 3, 4, 5], kemudian mengakses elemen pertama (indeks 0) dari array tersebut, menyimpannya dalam variabel element, dan mencetak nilai element, yaitu 1.
+}

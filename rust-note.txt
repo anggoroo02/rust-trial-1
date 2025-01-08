@@ -8,3 +8,12 @@ Scalar
 Compund: Tipe gabungan dapat mengelompokkan beberapa nilai dari tipe lain menjadi satu tipe. Rust memiliki dua tipe gabungan primitif: tuple dan array.
   Tupples: Tuple adalah cara umum untuk mengelompokkan sejumlah nilai lain dengan berbagai tipe menjadi satu tipe gabungan. intinya kayak array.
   Array: kumpulan nilai yang memiliki panjang yang sama, tipe data yang sama, dan diawali dengan indeks yang dimulai dari 0.
+Fungsi
+secara tidak sadar saya (atau kita) telah menggunakan fungsi, contoh fn main() {}. digunakan untuk mengerjakan suatu pekerjaan tertentu, serta letaknya dipisahkan dari bagian program yang menggunakan fungsi tersebut.
+Fungsi dapat di panggil, dengan menggunakan nama_fungsi(). sebelum bisa digunakan, fungsi harus di definisikan dengan kata kunci fn.
+contoh : fn say_hello() { println!("Hello, world!"); }.
+dan untuk menggunakan fungsi tersebut, kita bisa menulis : fn main() { say_hello(); }.
+catatan, fungsi berperan penting dalam Object Orienated Programming (OOP) karena fungsi adalah bagian dari konsep OOP.
+Fungsi juga bisa menerima parameter, contoh : fn say_hello(name: &str) { println!("Hello, {}!", name); }.
+Fungsi juga bisa mengembalikan nilai, contoh : fn add(a: i32, b: i32) -> i32 { a + b }.
+Fungsi juga bisa memiliki default parameter, contoh : fn add(a: i32, b: i32, c: i32 = 0) -> i32 { a + b + c }.

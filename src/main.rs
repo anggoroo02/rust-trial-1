@@ -1,5 +1,20 @@
 fn main() {
-    println!("Hello, world!");
+    fn say_hello_word() { //membuat fungsi say_hello_word
+        println!("Hello, world!");
+    }
+    fn argument(x:i32) {
+        println!("nilai dari x adalah: {}",x)
+    }
+    // fn argument_manual(){
+    //     let mut input = String::new();
+    //     println!("Masukkan nilai x: ");
+    //     io::stdin().read_line(&mut input).expect("Failed to read line");
+    //     let x: i32 = input.trim().parse().expect("Invalid input");
+    //     println!("isi variable x adalah: {}", x)
+    // }
+    argument(12);
+    say_hello_word(); //memanggil fungsi say_hello_word
+    // argument_manual(); //memanggil fungsi argument dengan parameter yang diinput
 }
 // test untuk tipe data
 #[test]

@@ -71,12 +71,9 @@ fn array_2(){
 }
 #[test]
 fn espressions(){
-    let x = 5;
-
     let y = {
         let x = 3;
-        x + 1
+        x + 1 // Tidak ada titik koma, ini adalah ekspresi yang menghasilkan nilai 4
     };
-
     println!("The value of y is: {}", y);
 }

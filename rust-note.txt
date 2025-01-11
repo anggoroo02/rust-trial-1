@@ -20,3 +20,8 @@ Fungsi juga bisa memiliki default parameter, contoh : fn add(a: i32, b: i32, c: 
 Perbedaan Antara Pernyataan dan Ekspresi
   Pernyataan(statement): Tidak menghasilkan nilai dan sering digunakan untuk mengubah keadaan program (misalnya mendeklarasikan variabel).
   Ekspresi(expression): Menghasilkan nilai dan dapat digunakan di dalam pernyataan.
+Kode yang digunakan untuk membatasi cakupan variabel juga merupakan ekspresi, jika tidak diakhiri dengan titik koma.
+contoh let y = {
+    let x = 3;
+      x + 1 // Tidak ada titik koma, ini adalah ekspresi yang menghasilkan nilai 4
+    }; (kalo gak pake titik koma, maka jadinya expression) jadi y itu isinya x + 1 tapi x dideklarasikan di dalam y.

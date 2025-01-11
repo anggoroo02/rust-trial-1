@@ -17,3 +17,6 @@ catatan, fungsi berperan penting dalam Object Orienated Programming (OOP) karena
 Fungsi juga bisa menerima parameter, contoh : fn say_hello(name: &str) { println!("Hello, {}!", name); }.
 Fungsi juga bisa mengembalikan nilai, contoh : fn add(a: i32, b: i32) -> i32 { a + b }.
 Fungsi juga bisa memiliki default parameter, contoh : fn add(a: i32, b: i32, c: i32 = 0) -> i32 { a + b + c }.
+Perbedaan Antara Pernyataan dan Ekspresi
+  Pernyataan(statement): Tidak menghasilkan nilai dan sering digunakan untuk mengubah keadaan program (misalnya mendeklarasikan variabel).
+  Ekspresi(expression): Menghasilkan nilai dan dapat digunakan di dalam pernyataan.

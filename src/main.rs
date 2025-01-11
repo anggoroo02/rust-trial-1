@@ -69,3 +69,14 @@ fn array_2(){
     println!("The value of element is: {}", element);
     //mendeklarasikan array a dengan nilai [1, 2, 3, 4, 5], kemudian mengakses elemen pertama (indeks 0) dari array tersebut, menyimpannya dalam variabel element, dan mencetak nilai element, yaitu 1.
 }
+#[test]
+fn espressions(){
+    let x = 5;
+
+    let y = {
+        let x = 3;
+        x + 1
+    };
+
+    println!("The value of y is: {}", y);
+}

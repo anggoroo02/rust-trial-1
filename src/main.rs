@@ -77,3 +77,8 @@ fn espressions(){
     };
     println!("The value of y is: {}", y);
 }
+#[test]
+fn say_hello(){
+    println!("hello world;");
+    say_hello();
+}

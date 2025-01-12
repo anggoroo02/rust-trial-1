@@ -78,7 +78,14 @@ fn espressions(){
     println!("The value of y is: {}", y);
 }
 #[test]
-fn say_hello(){
-    println!("hello world;");
-    say_hello();
+fn say_hello() {
+    // Define the macro
+    macro_rules! say_hello {
+        () => {
+            println!("Hello, world!");
+        };
+    }
+    // Call the macro
+    say_hello!();
 }
+

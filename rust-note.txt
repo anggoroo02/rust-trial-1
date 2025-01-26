@@ -25,3 +25,5 @@ contoh let y = {
     let x = 3;
       x + 1 // Tidak ada titik koma, ini adalah ekspresi yang menghasilkan nilai 4
     }; (kalo gak pake titik koma, maka jadinya expression) jadi y itu isinya x + 1 tapi x dideklarasikan di dalam y.
+pengmbalian fungsi (->): menyatakan tipe pengembalian fungsi. Ini digunakan setelah nama fungsi dan parameter, untuk menunjukkan tipe nilai yang dikembalikan oleh fungsi tersebut.
+

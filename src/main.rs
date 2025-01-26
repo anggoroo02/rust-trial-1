@@ -88,4 +88,12 @@ fn say_hello() {
     // Call the macro
     say_hello!();
 }
+#[test]
+fn function_with_return(){
+    fn four()->i32{
+        4
+    }
+    let result=four();
+    println!("nilai dari fn four : {}", result)
+}
 
